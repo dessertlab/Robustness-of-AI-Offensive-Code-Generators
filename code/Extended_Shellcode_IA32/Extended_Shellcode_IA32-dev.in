@@ -1,0 +1,590 @@
+swap the contents of the esi register with the contents of the eax register
+push 0x50446862 onto the stack
+define the byte string '20h'
+extend the sign bit of the eax register into the edx register
+put the syscall 0x0b into the eax register
+define _shell label
+push the doubleword 0x4227a28b onto the stack
+make the system call getpid
+multiply edx with eax saving the result in eax
+copy write syscall number in eax register
+push the 0x74652f2f onto the stack
+set the loop counter to shellcodelen into cl register
+execute execve syscall
+load __nr_socketcall syscall into al register
+copy the hexadecimal value 0x4 in ch register
+section .text
+clear eax and push its content on the stack
+clear the edx register and move 2 in the lowest byte of the register
+decrement the contents of the ecx register
+push the 0x6475732f onto the stack
+move b to ecx
+ecx points to the top of the stack
+define the function F3, move to the next byte of ebx and jump short to L2
+push "c-" on stack
+push 0x6d726574 to the stack
+copy bl contents in the byte at the address edx+eax
+push 0x2f2f2f2f onto the stack
+move shellcodelen into cl
+move the value write_syscall to al register
+define string as the byte string '/etc/passwd'
+move a byte from the address esi+ecx into al
+transfer fd for next call from eax into esi register
+shellcode address will be pushed into the stack
+shift right all bits of eax 0x10 times
+jump to the loop label if the unsigned contents of the edx register is greater than the unsigned value 0x43 else push the contents of the edx register onto the stack
+load null temrinated string '/sbin/reboot' into ebx register
+copy esi content into ebx register
+save null terminated string '3.meximas.com////b3mb4m/hell' into ecx register
+divide edx by 2 using right shift
+zero out eax,ebx, ecx and edx registers
+zro out ebx and ecx register
+jump to exit_on_error label if flag zero is equal to 0
+jump to two
+load accept syscall number into ax register
+subtract 0x0b454440 from the contents in ecx and save the result in ecx
+push edx on the stack
+push 0x3131313a onto the stack
+call the _appendfile function
+point ecx to the start of the shellcode
+push the path //etc/passwd on the stack and load stack pointer to ebx
+jump to 804809a if not equal
+put 673 in dx
+if sf not set, ecx not negative so continue looping
+push eax, esi, edi and ebx contents on stack
+go to shell_ret label after entering byte string “/bin/sh” address on stack
+specify file descriptor 0 as standard input
+save socket file descriptor and 0 in ecx
+push address of /bin/sh
+0's out eax
+push the value 0x7461632f and the value 0x6e69622f onto the stack and point the eax register to the stack register
+push the word 0x662d onto the stack and point the ebx register to the stack register
+system call stat
+move 0xff into dl
+clear ecx and move the value 0777 in it ( set file permissions to 777 so anyone can do anything (read, write, or execute))
+move the memory address of contents variable into ecx
+decrement the counter and jump to the L1 label if the count is not zero and the zero flag is equal to zero
+decrement the ecx register and jump to the l2 label if the contents of the ecx register is not zero else jump to the edi register
+load address of the parameter array into ecx
+move 0x6 into al
+push the word 0xc005 onto the stack
+add byte '0' to al
+move 1 into ecx
+make the system call getppid
+xoring hexadecimal value 0xaa with the byste at the address esi
+copy esp content into ecx register
+set the ecx register to null
+point to the next byte in the ebx register
+push ax content represented on 32 bit on stack
+jump short to the label l1 if the contents of the ebx register is negative
+move the byte in esi into cl
+define even_number function
+point to the next byte in edi
+load the effective address of the result of the operation [esi+8] into the ecx register
+push the value 0x1a onto the stack
+compare the content of bl register with the end character, 0xaa. if they arer equal go to shellcodelable, else compare the content of bl register with the character 0xbb that is the placeholder for xor. if they are equal go to _xordecode label. else go to _notdecode label.
+define dup2 label
+set a valid .text address, '_start' into eax
+declare R2 and point to the next word in esi
+sets esp as recv buffer
+add the contents of the eax register to the edx register
+move buff to eax
+load __nr_socketcall into al register
+if equal jump to label continue
+compare ebx and eax content then jump to download_label if the result of the comparison is 0
+increment edx
+pushe 0 onto the stack for first arg of inaddr_any for the local host
+load __nr_execve syscall into al register
+move 0x0b into al
+define exit_on_error label
+clean ebx and ecx
+move 0x6374652f into the dword at address [esp-12]
+define message as the byte string '/etc/passwd'
+declare one label
+load '/bin//sh\0' into ebx register
+save shellcode lenght into al register
+push the value 0x61702f2f and the value 0x6374652f onto the stack and point the edi register to the stack register
+move bl into the byte in esi+ecx
+push the value of register edx onto the stack
+jump to the wrap_around label if the destination operand is less than the source operand in the above comparison
+move the contents of x into ebx
+call kernel
+push 02 onto the stack (af_inet = 2)
+define close_syscall=6
+load the effective address [zero_reg+117] into ecx
+push the byte 3h onto the stack
+move address of the opernads into ecx
+insert the hexadecimal value 11 on the stack and save it in the first free 32bit register
+move 3 to the ebx register
+subtract the value 0x28 from the esp register
+pushes the 2nd arg for connection que size to 0
+push edx, ecx and eax contents on stack
+push 0x6475732f to the stack
+getpid
+declare the ruotine D3 and add the value 8 to the current byte of the shellcode
+load the effective address [ebx] into edi
+copy the byte in memory at the address esi+ecx+1 into bl register
+increment ebx content by 1
+perform a logical xor between the bl register and 0xbb and save the result in bl
+zero out eax, ebx, ecx
+move 0xf into al
+push the value 0x6475732f and the value 0x6374652f onto the stack and point the esi register to the stack register
+push the value 0x4 onto the stack
+push '/etc//passwd' on stack
+define the byte value bytes and initialize it to 20
+push 0xb to the stack
+negate the byte at the address esi after subtracting the value 2
+define the label L5 and jump to the location pointed by the stack pointer
+copy eax content into edx
+jump short to the read label
+subtract 8 from the contents of eax register and save the result in eax
+load exit in al register
+move the number of the syscall close in al register
+move the value of register at address esp+4 and store into eax
+push eax and edi contents on the stack
+move rn to ecx
+perform xor between cl and 0xaa and jump to shift decode if the result is zero
+push the pointer to -f
+jump to the label l2 if the unsigned contents of the al register is lower than the unsigned contents of the bl register
+zero out ecx and edx register
+ebx points to memory struct
+jump to dup2 if flag zero is equal to 0
+save 16, ecx contents and the saved socket descriptor (in esi) on ecx
+point to the next double word in eax
+jump to incaddr if not equal
+move addr into eax
+clear the edx register
+clear eax and load the code of syscall fork in it, then call kernel
+push the word 0x662d onto the stack and point the eax register to the stack register
+define F1, negate cl and point to the next byte in the cl register
+if ecx is not inferior to 0 go to _loop label
+declare .text section
+push the value 0x69622f2f onto the stack and point the edx register to the stack register
+move doublewords from the stack into the 32 bit registers
+jump to 80480aa if not equal
+perform the xor operation between eax and 0x58494741 value and store the result in eax
+system call interrupt
+push 0x3170762d onto the stack
+get the byte from edi and save it in bl
+call_shellcode function
+jump to the address specified by the operation fupdisasm+1
+jump to the IncAddr label if the value in the eax register is not equal to the doubleword addressed by edi else jump to the edi register
+push the byte 0x2 onto the stack and point ecx to the stack register
+push the value 0x1c onto the stack
+push edx on stack
+decrement the ecx register and jump to the L2 label if the contents of the ecx register is not zero and the zero flag is zero else push the contents of the eax register onto the stack
+push sin6_flowinfo=4 byte saved in ebx on stack
+load the string '/etc/gshadow' into ebx register
+push edx, the byte +0x74 and the chined double words '/usr/bin/wge' into ebx register
+jump to the lowbound label if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0x7
+invoke sys_exit
+jump to the edi label
+subtract the current byte of the shellcode from bl
+jump short to the process_shellcode label
+execute __nr_exit sycall
+define F1 and call the function function_1
+shift right dx by the contents of bl and negate the byte in dx
+define shellcodelen equal to the length shellcode
+define the closefile function
+load chained null and the arg -le//bin//sh into edx register
+go to _reading label
+make the system call alarm
+copy edi content into ebx register
+define format label
+multiply edx by 2 using left shift
+subtract 0x3217d6d2 from the contents in eax and save the result in eax
+move the single byte in esi into dl
+define execfile function
+push hs// onto stack
+zeroing eax and edx registers
+move the command socketcall in al register
+zero out ebx and ecx content
+push the dword 0x6f702f6e onto the stack
+load sigaction syscall number into eax register
+increment esi
+push 's_av' on stack
+insert in ax register the value 0x16a/connect syscall number
+define _stageaddress label
+subtract the value 8 from the byte in edi and negate it
+jump to the connect label if the contents of the eax register is equal to the contents of the ebx register else jump to the exit label if the unsigned contents of the eax register is greater than the unsigned contents of the ebx register
+move 1 into bl register
+push socket file descriptor on stack
+zero out ecx, edx and eax
+if the contents of the eax register is zero then jump to the label check_html
+define the array of bytes encodedshellcode and initialize it to 0xeb,0x0c,0x5e,0x31,0xc9,0xb1,0x19,0xf6,0x16,0x46,0xe2,0xfb,0xeb,0x05,0xe8,0xef,0xff,0xff,0xff,0xce,0x3f,0xaf,0x97,0xd0,0xd0,0x8c,0x97,0x97,0xd0,0x9d,0x96,0x91,0x76,0x1c,0xaf,0x76,0x1d,0xac,0x76,0x1e,0x4f,0xf4,0x32,0x7f
+declare cmd string and initialize it to 'cat /etc/passwd'
+move 0x1 into cl
+push '/etc/sha' on stack
+move 0x2e into al
+move 9 into esi
+push the byte 0x3 onto the stack
+call the _write function
+declare _encodedshellcode label and the encoded shellcode: 0x4c,0xbd,0x2d,0x15,0x52,0x52,0x0e,0x15,0x15,0x52,0x1f,0x14,0x13,0xf4,0x9e,0x2d,0xf4,0x9f,0x2e,0xf4,0x9c,0xcd,0x76,0xb0,0xfd
+save 0x1 into al and bl registers
+declare inc_dec function
+move 0x66 into eax
+define exit_call equal to 1
+perform a short unconditional jump to push_cmd label
+move filename into edx
+decrement the counter and if it is not zero go back at decode_loop and execute the cicle again else jump to encoded_shellcode
+set carry flag
+push :::0 and esi content on stack
+push 0x2 onto the stack
+move the hexadecimal value 0x2bc (700) to cx register
+decrement ecx content by 1
+move 0x9ed into cx
+load esp content into ecx register
+pick up ecx content from the stack and put it in ebp register
+add 37 to edi contents
+push the immediate value stored in rcx onto the stack
+if the contents of the cl register is equal to the contents of the dl register then jump to the EncodedShellcode label
+define _writestring label
+load the value 11 into al register
+declare _decoderf label
+push /bin/sh/ in ebx register
+declare set_argv label
+push 0xefffff7f onto the stack
+push 4 times dword contained in eax that represent ipv6 loopback
+push 1 onto the stack for sock_stream
+push the word 0x2e2e onto the stack
+if it return efault, bad address
+push 0x68732f2f onto the stack
+move address of response variable into ecx
+jump to the label do_inject if the byte representation of 2 is equal to the contents of the al register else jump to the while label
+jump short to the call_decoder label
+push ecx and ebx content on stack
+declare _file label
+decode label
+set counter ecx = 2
+define _egghunter label
+point to the next byte of the shellcode and jump short to L1
+push esp onto the stack
+point to the next byte in the eax register
+clear the ecx register and move the next byte of the shellcode into the lower byte of the register
+jump to the memory location loc_402B1D if the contents of the bl register is greater than the value 78h
+push 0x6475732f onto the stack
+initiate the loop-counter to 2
+move the syscall sys_accept in bl register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the L1 label
+push the byte 0x8 onto the stack and point edx to the stack register
+push the word 0x7065 onto the stack
+add 2 to counter cl
+allocate memory for 30 bytes uninitialized name variable
+move edi to eax
+load null bytes, '//sh' and '/bin' into ebx register
+push the dword 0x6f726577 onto the stack
+add 2 to counter
+delcare the dup2loop label
+subtract the contents of bx register by 1663 and save the result in bx
+load syscall exit in al register and call kernel
+push edx content two times on stack
+move close_syscall into al
+jump short to call_decoder
+make the system call to send the signal to another process
+move the function chmod in al register
+right shift by 3 bit positions the contents of var variable
+put the address of ebx+8 into eax
+declare a constant size and set equal to 25
+clear the eax register and move 2 in the lowest byte of the register
+if the contents of the eax register is negative then jump to the label close
+compare if eax is equal to 0
+push the byte +0x8 onto the stack
+define the child function
+pick up ecx and ebx from stack
+zero out the edx register
+load hexadecimal value 0x1 into bl register
+push the 0x74756873 onto the stack
+copy the byte at the address esi+eax*1+0x1 into the byte at the address edi
+clear eax, ebx and edx registers
+move m_src1 to ebx
+push the value 0x69622f2f onto the stack and point the eax register to the stack register
+execute __nr_write syscall
+move addr ptr back
+multiply eax by ecx
+perform an unconditional short jump to _decode label
+push the double word stored a edx+2 location on stack
+subtract 0x41 from the al register
+copy eax content into edi register
+perform an unconditional jump to _call_decoder label
+decrement the contents of the ecx register and jump to the dup2 label if the result is not negative
+load array address into ecx
+define exit_call =1
+point ebx to stack
+move to the next double word in the edx register
+next byte in the encoded shellcode
+save esp address into ebx register
+define the _build label
+decrement ecx alias loop counter
+execute waitpid syscall
+delcare section .text, global _start and _start label
+load the current address from ecx to edi
+jump to the callz label
+compare if the contents at memory location ebp+var_a is 0
+load exit syscall number into eax register
+delcare _write label
+execute sys_dup2
+increment eax, esi and edi by 1
+execute __nr_exit syscall
+add decimal 48 to eax
+move zero_reg into the address [ebp+20]
+call_shellcode routine
+if the unsigned contents of the bl register is lower than the unsigned value 0x1f then jump to the memory address 0xf3 else add the 0x40 value to the al register
+if zero jump to the formatting label
+load the stack pointer into ecx register
+clear the ax register
+transfer the eighth character pointed by edi to esi
+pushes the memory location of args into ecx
+put the syscall 0x66 into the eax register
+pause
+jump short to switch
+move ax into the word in edi
+load hecadecimal value 0xfff into dx register then increment dx content by 1
+load int 0x80 into eax register
+jump to the label l1 if the unsigned contents of the dl register is lower than the unsigned contents of the cl register else move the value 0x39 to the al register
+jump short to the todo label
+make the system call pause
+move eax contents to ebx register
+push nib/ on stack
+load esi content into ebx register
+moving the pointer to the string '-le//bin//sh' to edi
+push $0x632d onto the stack
+load stack pointer into ebx register
+invoke subroutine bind
+define F1 function and jump short to L1
+push the protocol 0, the type, sock_stream, and the domain af_inet on the stack and then load the stack pointer into ecx register
+move the memory address of buffer variable into ecx
+move /bin/sh into the eax register
+execute a rotation to the left of the first character pointed from esi for 4 times
+jump to the EncodedShellcode label if the contents of the cl register is equal to the contents of the dl register
+put the value of bl to the position of edi
+moves the address of the string from the stack to ecx
+jump to the label _recv_http_request if the contents of the eax register is not zero else subtract the value 0x6 from the contents of the ecx register
+perform an unconditional short jump to _call_decoder label
+move the contents of the bx register at the memory location specified by the operation [bp+0x36]
+move ecx into the address [ebp+12]
+add ecx to ebx
+load the string /usr/bin/wget in ebx register
+transfer hexadecimal value 0x401 into cx register
+declare global _start, section .text, _start label
+move the contents of ecx into the memory location specified by the operation [ebp+12]
+load into al register the syscall for dup2
+increase esi of 1
+initialize the esi register with the decimal value 0
+move filename into ebx
+call the near function
+move rm to ecx
+restore edx from the value we pushed onto the stack at the start
+zero out edx
+jump to the init label if the contents of the cl register is equal to the contents of the dl register else increment the contents of the cl register
+jump to the label l1 if the contents of the eax register is not zero else call the function myfunct
+extend the sign bit of eax into the edx register
+clear ecx
+move 10 into bl
+move the effective address edx+ecx into al
+push the byte +0x7f onto the stack
+pointer to args on the stack into ecx
+push the lenght of sockaddr_in6 = 28 byte
+push the byte 0xb onto the stack
+clear ecx and move 0x4 in the lowest byte of the register
+save af_inet in 32bit, the 32bit value 4444, edx contents on ecx
+if al regsiter content is equal to the hexadecimal value 0xaa jump to decode_insertion label
+define do_dup label
+subtract the value 3 from the contents of the bl register and jump to the stage label if the result is not zero
+call the function in esp
+set read-write permission
+clear eax
+subtract the contents of the ax register by 1662
+declare the output label
+make the system call signal
+save esp content into ecx register
+load the effective address of ebx+8 into ecx
+compare the dword at the memory location [eax-8] with the value of egg
+save the byte in esi+edx+3 in cl
+push 0x2f6e6962 to the stack
+push the 0x742f2f2f onto the stack
+pick up ebx register from the stack
+push the 0x37373333 onto the stack
+get the byte from esi and save it in bl
+declare _exec _label
+multiply eax by the contents of the ebx register
+transfer control to the previous instruction address saved on stack
+define _jocker label
+negate all bits in the byte at the memory location var2
+define the _param label
+put null bytes in the stack
+execute the system call
+move zero_reg into ebx
+move 61 into al
+zero out the edx register and jump to the l2 label if the contents of the ecx register is equal to the contents of the edx register
+copy edx content into eax register
+perform a xor operation between a byte in esi and cl
+declare global start, text section and _start label
+load chmod syscall into eax
+point ebx to the start of the shellcode
+push the value 0x6168732f onto the stack
+perform a logical xor between the eax register and the ebx register and save the result in eax
+push hexadecimal value 0xffffff90 into ebx register
+clear the ebx register and move 2 in the lowest byte of the register
+load the effective address of the result of the operation [esi+14] into the ebx register
+move 0x1 to bl register
+left shift the contents of the edx register by 24 bits
+add the value 64 to the content of edx register
+push edx(0) onto the stack (inaddr_any = 0)
+call esp
+define message byte and initialize it to '/bin/sh'
+push af_inet = 0x0a
+push the value 46 on the stack
+zero the value on ebp
+define the function D4 and perform the xor operation between the byte in esi and the 0x1 value
+pop doublewords from the stack into the 32 bit registers
+push ipproto_tcp value, 6, on stack
+oring hexadecimal value 0x78 to al register
+define _zeroa label
+push the 0x69616863 onto the stack
+creat a countre moving the value 2 into cl register
+jump to the address specified by the label loop if the operands are not equals in the previous comparison
+declare section. text, global _start, _start label
+make the system call to get the process group
+define the byte string '80h'
+define the _user label
+move 0x1 into bl
+push len onto the stack
+negate all the bits of ecx register
+add the byte value 2 to the esi register
+extract the data for the 8 general-purpose 32-bit registers from the stack
+push ecx and ebx contents and 32 bit equal to 2 on the stack and then put esp in ecx
+backup cl into al
+jump short to the output label
+load setsid syscall into al register
+pop the value on the stack back into ebx
+jump to find_egg if zero
+define _zero7 label
+push hexadecimal value 0x1c, ecx and esi contents on stack
+pop the value on the stack back into eax
+jump to the incpage label if the contents of the al register is equal to the value 0xf2
+add 3 to al
+move 0x5 into bl
+move 0xff into dh
+execute exit
+perform a short unconditional jump to call_decoder
+put /bin/sh into edx
+move 12 to edx
+sum hexadecimal value 0x9c09ebea with eax register. if cf is set, add 1 to eax.
+move the contents of memory address ebx+epi*4+2 into eax
+add 3 to the contents of the ebx register
+null ecx
+push pi onto the fpu stack
+load ebx content into ecx register
+push the byte 0x64 to the stack
+copy key into eax and edx in edi
+push '////bin/bash' into the stack
+push ptr addr on stack
+copy what is in ebx into eax
+jump to the loop label if the previous instruction clears the sign flag
+define me label
+declare F3 function and point to the next byte in edi
+move 0x6c6c756e into eax
+declare _dupcount label
+move to the next double word in the eax register
+move 0x68732f2f into the dword at address [esp-8]
+declare the end label
+copy write syscall number in eax register
+define the _child label
+define addr = db 0x1
+move mxcsr to eax
+copy 2 into cl register
+push double word 0x39396e2d onto the stack and point the esi register to the stack register
+jump to the loop_2 label if the contents of the bl register is equal to the contents of the al register else jump short to the not_found label
+esp points to the top of the stack
+S3 is an array of words 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73
+define the numeric label 1
+in the function F2 jump to label L1 if the current byte of the shellcode is greater than 0x2 else add 0x2 to the byte of the shellcode and jump to L2
+if not 0 then jump to the top label
+jump to the encoded label if the result of the logical xor between the bl register and the value 0xBB is zero
+swap the contents of the eax register with the contents of the edx register
+jump to the all label if the contents of the eax register is equal to the contents of the ebx register
+go to _zero15 label
+push hexadecimal value 0x1 into al and bl registers
+declare bss section
+subtract 0x3bd04ede from the contents in eax and save the result in eax
+move dl into the single byte at the address stored in ecx+92
+subtract the byte 8 from the contents of the ebx register
+multiply eax by 0x10 and stores the result in edx:eax
+go to _cont after entering db '0',10 address on the top of the stack
+push null sockaddr on stack
+decrements eax by 1
+load arg1 = '/bin/sh' into ebx register
+push on stack the word array : [0, port_num, 2]
+if cl contents is equal to dl contents jump to _init label
+go to _jocker label
+copy the esi content into ebx register
+clear the eax register and move 0x1 in the lowest byte of the register
+push af_inet = 2
+push ip address as _ip on stack
+perform an unconditional short jump to two_label
+perform a logical xor between the ebx register and the ebp register and save the result in ebx
+define the all label
+subtract the contents of ecx from the contents of ecx
+perform a short unconditional jump to todo_label
+negate the byte at the address esi after adding the value 2
+push eax, esi and bx contents on the stack
+save pointer into ebx
+push the byte 0x06 onto the stack
+if the contents of the eax register is not zero then jump to the label l1 else call the function myfunct
+move 0bh into bl
+load execve syscall number into al register
+compare ebx and eax content. if they are equal go to _connect label, else go to _exit label
+move 1222 into dx
+move 13 to cl
+call kernel
+init edi 0
+execute exit syscall
+define inc_dec label
+clear the ebx register
+move 0x776f into the word in [esp+0x1]
+declare msglength to have the constant value 12
+declare the do_dup label
+push 0x65782e2f to the stack
+execute __nr_open syscall
+clear ebx, ecx, edx
+declare the label decoder
+jump to even_number is the contents in esi is even
+go to _zero1d label
+load esp content into ecx
+move the contents of the ax register at the memory location specified by the operation [bp+0x3e]
+push the word [edx] onto the stack
+zero out the edi, eax, ebx and edx registers
+exec sys_dup2
+push null in stack
+push the byte chmod_call onto the stack
+move the address of msg2 into eax
+multiply the contents of eax by 3
+point to the next word in the eax register
+push the contents of edi register onto the stack
+move 1 into lower byte of each
+save in edi the -c value
+gets the memory address of the nulls onto the stack into edx
+write
+define _random label
+declare _init label
+load '/bin//sh\0' into ebx register
+move the contents at memory address x to ebx
+push the byte 5 onto the stack
+right shift the contents of the eax register by 24 bit positions
+move 0x3f into the byte in al
+increment the contents of the bl register
+move edi into ecx
+push the 0x3905 onto the stack
+jump to the l00p label if the zero flag is cleared
+push double word 0x74652f2f onto the stack and point the ecx register to the stack register
+make ebx pointing to the string “/bin//sh”
+push 0x10 to the stack
+pick up esi content fro the stack
+swap al value with next byte value in esi
+load the effective address of the result of the operation [zero_reg+3] into the ebx register
+copy ecx into esi register
+execute
+decrement the counter and jump to the main_loop label if the count is not zero
+save null terminating string '/bin/sh' into ebx
+push 0x7372656f onto the stack
+swap the contents of the ebx register with the contents of the esp register

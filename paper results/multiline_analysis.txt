@@ -1,0 +1,825 @@
+Processing ./CodeBERT_Extended_Shellcode_IA32_no_perturbation.xlsx...
+Sheet: No_perturbation
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.53
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.73
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'No_perturbation'.
+
+
+Processing ./CodeBERT_Extended_Shellcode_IA32_word_omission.xlsx...
+Sheet: Structure_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.48
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.79
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.18
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.49
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.32
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.65
+
+
+Sheet: Action_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.82
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.84
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.37
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.40
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.69
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.53
+
+
+Sheet: Name_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.28
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.51
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.03
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.16
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.04
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.20
+
+
+Processing ./CodeBERT_Extended_Shellcode_IA32_word_omission_AT.xlsx...
+Sheet: Structure_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.82
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.47
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.63
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.84
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.84
+
+
+Sheet: Structure_related_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.86
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.45
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.62
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.84
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.83
+
+
+Sheet: Structure_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.92
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.47
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.62
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.86
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.86
+
+
+Sheet: Action_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.83
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.45
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.56
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.80
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.72
+
+
+Sheet: Action_related_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.92
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.48
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.59
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.85
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.76
+
+
+Sheet: Action_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.50
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.60
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.88
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.77
+
+
+Sheet: Name_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.83
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.93
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.10
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.23
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.17
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.28
+
+
+Sheet: Name_related_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.11
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.24
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.16
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.31
+
+
+Sheet: Name_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.98
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.15
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.27
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.26
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.34
+
+
+Processing ./CodeBERT_Extended_Shellcode_IA32_word_omission_AT_cleanTestset.xlsx...
+Sheet: Structure_related_AT50_cleanTes
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.93
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.51
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.71
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Structure_related_AT50_cleanTes'.
+
+
+Sheet: Action_related_AT50_cleanTestse
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.52
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.72
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Action_related_AT50_cleanTestse'.
+
+
+Sheet: Name_related_AT50_cleanTestset
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.93
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.50
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.69
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Name_related_AT50_cleanTestset'.
+
+
+Processing ./CodeBERT_Extended_Shellcode_IA32_word_substitution.xlsx...
+Sheet: WED_POS_20
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.82
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.92
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.38
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.52
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.69
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.67
+
+
+Processing ./CodeBERT_Extended_Shellcode_IA32_word_substitution_AT.xlsx...
+Sheet: WED_POS_20_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.95
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.50
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.69
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.89
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.87
+
+
+Sheet: WED_POS_20_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.48
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.70
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.85
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.91
+
+
+Sheet: WED_POS_20_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.48
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.70
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.89
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.92
+
+
+Processing ./CodeBERT_Extended_Shellcode_IA32_word_substitution_AT_cleanTestset.xlsx...
+Sheet: WED_POS_20_AT50_cleanTestset
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.95
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.52
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.73
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'WED_POS_20_AT50_cleanTestset'.
+
+
+Processing ./CodeT5+_Extended_Shellcode_IA32_no_perturbation.xlsx...
+Sheet: No_perturbation
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.62
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.72
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'No_perturbation'.
+
+
+Processing ./CodeT5+_Extended_Shellcode_IA32_word_omission.xlsx...
+Sheet: Structure_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.86
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.55
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.61
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.87
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.83
+
+
+Sheet: Action_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.79
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.76
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.29
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.38
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.45
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.52
+
+
+Sheet: Name_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.48
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.66
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.06
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.18
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.07
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.24
+
+
+Processing ./CodeT5+_Extended_Shellcode_IA32_word_omission_AT.xlsx...
+Sheet: Structure_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.55
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.61
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.85
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.82
+
+
+Sheet: Structure_related_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.88
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.52
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.61
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.83
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.81
+
+
+Sheet: Structure_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.57
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.64
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.89
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.85
+
+
+Sheet: Action_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.88
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.86
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.53
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.58
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.80
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.77
+
+
+Sheet: Action_related_AT50_x0009_
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.85
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.58
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.59
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.87
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.79
+
+
+Sheet: Action_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.86
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.60
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.59
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.89
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.79
+
+
+Sheet: Name_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.93
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.16
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.23
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.22
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.28
+
+
+Sheet: Name_related_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.11
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.26
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.17
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.33
+
+
+Sheet: Name_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.95
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.12
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.21
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.17
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.27
+
+
+Processing ./CodeT5+_Extended_Shellcode_IA32_word_omission_AT_cleanTestset.xlsx...
+Sheet: Structure_related_AT50_cleanTes
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.86
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.69
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.76
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Structure_related_AT50_cleanTes'.
+
+
+Sheet: Action_related_AT50_cleanTestse
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.92
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.70
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.75
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Action_related_AT50_cleanTestse'.
+
+
+Sheet: Name_related_AT50_cleanTestset
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.92
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.93
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.67
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.74
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Name_related_AT50_cleanTestset'.
+
+
+Processing ./CodeT5+_Extended_Shellcode_IA32_word_substitution.xlsx...
+Sheet: WED_POS_20
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.74
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.72
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.38
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.43
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.61
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.58
+
+
+Processing ./CodeT5+_Extended_Shellcode_IA32_word_substitution_AT.xlsx...
+Sheet: WED_POS_20_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.55
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.66
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.89
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.88
+
+
+Sheet: WED_POS_20_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.86
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.88
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.55
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.65
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.89
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.87
+
+
+Sheet: WED_POS_20_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.88
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.60
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.69
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.95
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.91
+
+
+Processing ./CodeT5+_Extended_Shellcode_IA32_word_substitution_AT_cleanTestset.xlsx...
+Sheet: WED_POS_20_AT50_cleanTestset
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.92
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.70
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.73
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'WED_POS_20_AT50_cleanTestset'.
+
+
+Processing ./Seq2Seq_Extended_Shellcode_IA32_no_perturbation.xlsx...
+Sheet: No_perturbation
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.98
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.53
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.69
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'No_perturbation'.
+
+
+Processing ./Seq2Seq_Extended_Shellcode_IA32_word_omission.xlsx...
+Sheet: Language_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.47
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.86
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.20
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.49
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.20
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.49
+
+
+Sheet: Action_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.84
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.43
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.40
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.43
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.40
+
+
+Sheet: Name_related
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.52
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.83
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.08
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.17
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.08
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.17
+
+
+Processing ./Seq2Seq_Extended_Shellcode_IA32_word_omission_AT.xlsx...
+Sheet: Structure_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.77
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.90
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.36
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.55
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.71
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.78
+
+
+Sheet: Structure_related_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.93
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.42
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.61
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.42
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.61
+
+
+Sheet: Structure_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.33
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.54
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.64
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.79
+
+
+Sheet: Action_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.40
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.47
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.80
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.68
+
+
+Sheet: Action_related_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.91
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.40
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.50
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.79
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.71
+
+
+Sheet: Action_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.88
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.93
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.45
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.57
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.45
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.57
+
+
+Sheet: Name_related_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.85
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.92
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.09
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.20
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.17
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.27
+
+
+Sheet: Name_related_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.12
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.22
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.25
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.31
+
+
+Sheet: Name_related_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.97
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.18
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.23
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.18
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.23
+
+
+Processing ./Seq2Seq_Extended_Shellcode_IA32_word_omission_AT_cleanTestset.xlsx...
+Sheet: Language_related_AT50_cleanTest
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.96
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.50
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.71
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Language_related_AT50_cleanTest'.
+
+
+Sheet: Action_related_AT50_cleanTestse
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.95
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.48
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.70
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Action_related_AT50_cleanTestse'.
+
+
+Sheet: Value_related_AT50_cleanTestset
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.96
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.45
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.65
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'Value_related_AT50_cleanTestset'.
+
+
+Processing ./Seq2Seq_Extended_Shellcode_IA32_word_substitution.xlsx...
+Sheet: WED_POS_20
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.82
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.48
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.52
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.48
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.52
+
+
+Processing ./Seq2Seq_Extended_Shellcode_IA32_word_substitution_AT.xlsx...
+Sheet: WED_POS_20_AT25
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.88
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.92
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.36
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.56
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.74
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.81
+
+
+Sheet: WED_POS_20_AT50
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.83
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.94
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.48
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.68
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.48
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.68
+
+
+Sheet: WED_POS_20_AT100
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.87
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.93
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.43
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.60
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Robust Accuracy' column: 0.84
+Accuracy for single-line samples in the 'Robust Accuracy' column: 0.87
+
+
+Processing ./Seq2Seq_Extended_Shellcode_IA32_word_substitution_AT_cleanTestset.xlsx...
+Sheet: WED_POS_20_AT50_cleanTestset
+Accuracy for multi-line samples in the 'Syntactic Accuracy' column: 0.89
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Syntactic Accuracy' column: 0.96
+Number of single-line samples: 449 out of 590
+Accuracy for multi-line samples in the 'Semantic Accuracy' column: 0.52
+Number of multi-line samples: 141 out of 590
+Accuracy for single-line samples in the 'Semantic Accuracy' column: 0.75
+Number of single-line samples: 449 out of 590
+The column 'Robust Accuracy' is not present in the sheet 'WED_POS_20_AT50_cleanTestset'.
+
+
