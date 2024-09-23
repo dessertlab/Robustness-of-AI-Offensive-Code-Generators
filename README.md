@@ -4,7 +4,7 @@ This repository contains the code, the dataset and the experimental results rela
 
 The paper presents a data augmentation method to perturb the natural language (NL) code descriptions used to prompt AI-based code generators and automatically generate offensive code. This method is used to create new code descriptions that are semantically equivalent to the original ones, and then to assess the robustness of 3 state-of-the-art code generators against unseen inputs. Finally, the perturbation method is used to perform data augmentation, i.e., increase the diversity of the NL descriptions in the training data, to enhance the models' performance against both perturbed and non-perturbed inputs. 
 
-![alt text](https://github.com/dessertlab/Robustness-of-AI-Offensive-Code-Generators/blob/main/perturbation_process.pdf)
+![alt text](https://github.com/dessertlab/Robustness-of-AI-Offensive-Code-Generators/blob/main/perturbation_process.png)
 
 
 This repository contains:
