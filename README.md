@@ -12,7 +12,7 @@ This repository contains:
 2. The source code to replicate the **injection of perturbations** by performing *word substitutions* or *word omissions* on the NL code descriptions (``code`` folder). This folder also contains a README.md file detailing how to set up the project, how to change the dataset if needed, and how to run the code.
 3. The **results** we obtained by feeding the perturbed code descriptions to the AI models, i.e., Seq2Seq, CodeBERT and CodeT5+ (``paper results`` folder). This folder also contains the evaluation of the models' performance on single-line vs. multi-line code snippets and the results of a survey we conducted to manually assess the semantic equivalence of perturbed NL descriptions to their original counterpart.
 
-## Citation
+### Citation
 If you find this work to be useful for your research, please consider citing: 
 
 ```
@@ -27,5 +27,5 @@ If you find this work to be useful for your research, please consider citing:
 }
 ```
 
-## Contacts 
+### Contacts 
 For further information, contact us via email: *cristina.improta@unina.it* (Cristina) and *pietro.liguori@unina.it* (Pietro).
