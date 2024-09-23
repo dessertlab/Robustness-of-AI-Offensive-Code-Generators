@@ -15,6 +15,7 @@ This repository contains:
 ## Citation
 If you find this work to be useful for your research, please consider citing: 
 
+```
 @misc{improta2023enhancingrobustnessaioffensive,
       title={Enhancing Robustness of AI Offensive Code Generators via Data Augmentation}, 
       author={Cristina Improta and Pietro Liguori and Roberto Natella and Bojan Cukic and Domenico Cotroneo},
@@ -24,6 +25,7 @@ If you find this work to be useful for your research, please consider citing:
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2306.05079}, 
 }
+```
 
 ## Contacts 
 For further information, contact us via email: *cristina.improta@unina.it* (Cristina) and *pietro.liguori@unina.it* (Pietro).
