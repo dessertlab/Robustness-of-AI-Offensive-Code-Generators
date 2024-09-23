@@ -1,11 +1,10 @@
 # Enhancing Robustness of AI Offensive Code Generators via Data Augmentation
 
 The README file is written based on our setup experience on *Ubuntu 18.04.3 LTS*. 
-Please run on a Linux OS. It is strongly recommended to run with **at least one GPU**.
+Please run on Linux or macOS. It is strongly recommended to run with **at least one GPU**.
 Before setting up our project we'd like to make sure you have some prerequisite installations and setups. 
 
-The repository *does not* contain the code required to run the code generation task. It contains the code required to replicate the perturbation injection, the Extended_Shellcode_IA32 dataset we used for our experiments, and the results we obtained by feeding the perturbed data to an NMT model. 
-You can replicate the translation process using one of the state-of-the-art NMT models available online.
+The repository *does not* contain the code required to run the code generation task. It contains the code required to replicate the data augmentation process via perturbation injection and the Extended_Shellcode_IA32 dataset we used for our experiments.
 
 ## Step 1: Dependencies Setup
 
